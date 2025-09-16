@@ -19,3 +19,16 @@
 - Code Splitting
 - Differential Bundling - support older browsers 
 - Different dev and prod bundles 
+
+Two types of Import/Export
+
+
+- Default Import/Export
+
+    export default component;
+    import component from "path";
+
+- Named Import/Export
+
+    export const component;
+    import {component} from "path";
